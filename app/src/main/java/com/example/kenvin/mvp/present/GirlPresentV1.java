@@ -25,6 +25,7 @@ public class GirlPresentV1 <T>  extends  BasePersenter<IGrilView> {
      * 持有模型Model的引用
      */
     IGirlModel girlModel=new GirlModelImlV1();
+
     @Override
     public  void fectch()
     {

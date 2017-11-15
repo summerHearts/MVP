@@ -13,12 +13,16 @@ import java.util.List;
  * Created by Kenvin on 2017/11/15.
  */
 
+/**
+ * 加载数据 ，模型层
+ */
+
 public class GirlModelImlV1  implements  IGirlModel{
     Handler handler=new Handler(Looper.getMainLooper());
     @Override
     public void loadGirl(final GirlOnLoadlitener girlOnLoadlitener) {
-        new Thread()
-        {
+
+        new Thread() {
             @Override
             public void run() {
                 try {
